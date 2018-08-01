@@ -1,0 +1,18 @@
+{
+  "fk_dashboard": {
+    "login_page": {
+      "url": "https://flipkart.com",
+      "uname": "9442176003",
+      "pword": "jayaram"
+    },
+    "fk_address":{
+      "name": "Jayaram",
+      "phone": "9442176003",
+      "pincode": "639004",
+      "addr_line1": "No 123 Gandhigramam",
+      "addr_line2": "TNHB",
+      "district" : "Karur"
+    }
+  }
+
+}

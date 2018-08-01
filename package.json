@@ -1,0 +1,48 @@
+{
+  "name": "flipkart_e2etest",
+  "version": "1.0.1",
+  "license": "ISC",
+  "description": "Flipkart E2E Test Suite",
+  "main": "index.js",
+  "scripts": {
+    "RUN_E2E": "MOCHAWESOME_REPORTDIR=reports/default mocha test/Flipkart_E2ETest.js --reporter mochawesome --reporter-options reportFilename=Automation,reportTitle=FlipkartE2EAutomation,autoOpen=false --t 120000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/freshdesk/freshapps_e2etest.git"
+  },
+  "author": {
+    "name": "Jayaram Venkatarathinam",
+    "email": "ramjai013@gmail.com"
+  },
+  "homepage": "https://github.com/freshdesk/freshapps_e2etest#readme",
+  "dependencies": {
+    "chai": "^1.10.0",
+    "chai-jquery": "^2.0.0",
+    "chai-json-equal": "^0.0.1",
+    "chai-webdriver": "^1.2.0",
+    "config": "^1.27.0",
+    "faker": "^4.1.0",
+    "file-system": "^2.2.2",
+    "hashmap": "^2.3.0",
+    "jquery": "^3.2.1",
+    "jsdom": "^11.3.0",
+    "mocha-jsdom": "^1.1.0",
+    "mochawesome": "^3.0.1",
+    "mocha": "^4.0.1",
+    "randomstring": "^1.1.5",
+    "request": "^2.83.0",
+    "request-promise": "^4.2.2",
+    "selenium-webdriver": "3.6.0",
+    "sleep": "^5.1.1",
+    "underscore": "^1.8.3",
+    "querystring": "^0.2.0"
+  },
+  "devDependencies": {
+    "chromedriver": "2.40.0",
+    "mysql": "^2.13.0",
+    "node-inspector": "^1.1.1",
+    "xvfb": "^0.2.3",
+    "yamljs": "^0.2.10"
+  }
+}
