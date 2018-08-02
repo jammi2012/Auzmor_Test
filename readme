@@ -1,0 +1,6 @@
+Steps to run the test script
+
+1. Install node 6.x.x version (https://nodejs.org/en/blog/release/v6.11.0/)
+2. run 'npm install' in the source directory, to download all the dependent node modules
+3. 'npm run RUN_E2E' to run the Flipkart E2E test suite
+4. reports and (error) screenshots can be found in ../reports/
