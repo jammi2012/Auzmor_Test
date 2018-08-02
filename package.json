@@ -9,13 +9,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/freshdesk/freshapps_e2etest.git"
+    "url": "https://github.com/jammi2012/Sample"
   },
   "author": {
     "name": "Jayaram Venkatarathinam",
     "email": "ramjai013@gmail.com"
   },
-  "homepage": "https://github.com/freshdesk/freshapps_e2etest#readme",
   "dependencies": {
     "chai": "^1.10.0",
     "chai-jquery": "^2.0.0",
