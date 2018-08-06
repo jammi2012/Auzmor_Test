@@ -3,7 +3,7 @@
  */
 function Cart() {
     this.CART_PRODUCT_XPATH = "//a[@class='_325-ji _3ROAwx']";
-    this.CART_VALUE_XPATH = "//div[text()=' ₹5,799']"
+    this.CART_VALUE_XPATH = "//span[text()=' ₹5,799']"
     this.CART_PALCE_ORDER_BTN_XPATH = "//button[@tabindex]";
 }
 

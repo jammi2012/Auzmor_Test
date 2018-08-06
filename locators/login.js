@@ -5,7 +5,8 @@ function Login() {
   this.LOGIN_BTN_XPATH = "//span[text()='Login']/ancestor::button";
   this.LOGIN_ERR_MSG_XPATH_SIGNUP = "//div[@class='JAUzCh']";
   this.MYACCOUNT_XPATH = "//div[@class='_2cyQi_' and text()='My Account']";
-
+  this.CLOSE_LOGIN_WIDGET = "//button[@class='_2AkmmA _29YdH8' and text()='✕']";
+  this.LOGIN_SIGNUP_XPATH = "//a[@href='/account/login?ret=/']";
   this.ENTER_PWD_XPATH = "//span[text()='Please enter Password']";
 }
 
